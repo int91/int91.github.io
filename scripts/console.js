@@ -7,12 +7,7 @@
 // Feel free to change the default settings! ♡
 let credit = {
 	description: [
-		`${siteName} belongs to ${author.name} and was made with DeadLogs.`,
-        "--------------------------------",
-        "✨Trans Rights are human rights!✨",
-        "♡ POC lives will always matter! ♡",
-		"--------------------------------",
-		"Have a lovely day."
+		
     ]
 }
 

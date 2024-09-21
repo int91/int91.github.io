@@ -20,7 +20,7 @@ let siteUrl = 'ogue-game.com'; // You can just put the url of your site here, wh
 // Put down your name and website/social media
 let author = {
     name: 'Zenkuru',
-    url: ''
+    url: 'ogue_'
 };
 
 // This is where you define the pages that'll be in your navigation bar throughout the site.
@@ -56,7 +56,7 @@ let footer = `
 */
 
 let postArchive = [
-    //['Title', 'Date', 'Location']
+    ['Website is up', '9/20/2024', 'post0.html']
 ];
 // --------------------------- # # # # #
 // // / / / // / / / / // / / / / / / / /
