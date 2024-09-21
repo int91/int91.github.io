@@ -56,7 +56,9 @@ let footer = `
 */
 
 let postArchive = [
-    ['Website is up', '9/20/2024', 'post0.html']
+    ['Website is up', '9/20/2024', 'post0.html'],
+    ['Ogue Release Plan', '9/20/2024', 'post1.html'],
+    ['More About Ogue', '9/20/2024', 'post2.html']
 ];
 // --------------------------- # # # # #
 // // / / / // / / / / // / / / / / / / /

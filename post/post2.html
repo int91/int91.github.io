@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/style/main.css">
+        <link rel="icon" href="../assets/images/favicon.png" type="image/png">
+        <title></title>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <nav id="nav"></nav>
+                <h1 id="postTitle"></h1>
+                <div id="postDate"></div>
+                <hr>
+            </header>
+            <main>
+                <h2>More About Ogue</h2>
+                <p>Since Ogue is a Ui-driven game you'll mainly be interacting with buttons and clicking ui elements.
+                    this creates a few design challenges. How do you make a game where all you do is click things fun?
+                    That's the question I've had to answer many times over the nearly two years I've started and restarted development.
+                    I know that's not very confidence inducing, but hear me out, the money is invested and majority of the game is well
+                    thought out and planned. Two years of just designing a game in your head is quite a bit to keep up with, so what I've done is write 
+                    down or type whatever thought I had in my head during work. I have massive discord logs about how features will work from getting
+                    feedback from friends on those feature's designs. I have a massive list of features that are very doable even for a single man developer
+                    such as myself. Though, I think we all still wish game development wasn't so time consuming and confusing at times. I don't have the UI/UX designed 
+                    yet, but I've spent tons of time mostly writing code and prototyping features. The big feature I really like so far is the dungeon generation.
+                    Multi-threaded dungeon generation allows massive dungeons with three-hundred or more rooms to be generated quickly. I had never actually used 
+                    multi-threading before this project, but I've figured it out as I tinkered around with it a bit. I mainly have to multi-thread the generation 
+                    to prevent a really back lock up that just wouldn't be fixed otherwise. This does make the whole game a little more complicated to write but it's 
+                    really not as bad as I make it out to be. I'll do more testing with more threads to see what can be done to speed up generation even more.
+                    I know this isn't really a "more about Ogue" conversation, though that is the title. This log is more of a "I don't have much to say at the moment 
+                    so I'm just going to ramble on and on for hours," kind of log.
+                </p>
+                <p>
+                    But anyways, thanks for reading this log and I hope to write more until the end of time.
+                </p>
+
+            </main>
+            <hr id="seperator">
+            <div id="changePost"></div>
+            <footer id="footer"></footer>
+        </div>
+        <!-- Let's link our javascript-->
+        <script src="../deadlogs.js" charset="utf-8"></script>
+        <script src="../scripts/posts.js" charset="utf-8"></script>
+        <script src="../scripts/console.js" charset="utf-8"></script>
+    </body>
+</html>
